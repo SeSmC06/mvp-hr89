@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Head from '../components/head'
-import Nav from '../components/nav'
+import Head from '../client/components/head'
+import Nav from '../client/components/nav'
 
 export default () => (
   <div>
