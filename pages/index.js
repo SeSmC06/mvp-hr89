@@ -1,12 +1,7 @@
-import React, { Component } from 'react';
-const { Link } = require('next/link');
+import Link from 'next/link';
 const { key: _APIKEY } = require('../apikey');
 
 export default class extends Component {
-
-  onClick = ({ x, y, lat, lng, event }) =>
-    console.log('hello current location');
-
   render() {
     return (
       // Important! Always set the container height explicitly
